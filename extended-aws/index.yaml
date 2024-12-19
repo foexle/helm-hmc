@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  aws-hosted-cp-extended:
+  - annotations:
+      cluster.x-k8s.io/bootstrap-k0smotron: v1beta1
+      cluster.x-k8s.io/control-plane-k0smotron: v1beta1
+      cluster.x-k8s.io/infrastructure-aws: v1beta2
+      cluster.x-k8s.io/provider: infrastructure-aws, control-plane-k0smotron, bootstrap-k0smotron
+    apiVersion: v2
+    appVersion: v1.31.1+k0s.1
+    created: "2024-12-17T15:39:23.562842+01:00"
+    description: 'An HMC template to deploy a k8s cluster on AWS with a differentiation
+      of worker types; The control plane runs within the management cluster '
+    digest: 96959f03e5ced915ab9efd68c279d5f8b525d34c483c02062e6d965e7ca931ea
+    name: aws-hosted-cp-extended
+    type: application
+    urls:
+    - aws-hosted-cp-extended-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-12-17T15:39:23.562169+01:00"
