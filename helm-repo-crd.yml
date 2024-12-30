@@ -5,7 +5,6 @@ metadata:
   namespace: hmc-system
 spec:
   insecure: true
-  interval: 10m0s
+  interval: 1m0s
   provider: generic
-  type: oci
-  url: oci://ghcr.io/foexle/aws-hosted-cp-extended:0.0.1
+  url: https://foexle.github.io/helm-hmc/charts/aws-hosted-cp-extended
