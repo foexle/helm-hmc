@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: HelmRepository
+metadata:
+  name: aws-hosted-cp-extended
+  namespace: hmc-system
+spec:
+  insecure: true
+  interval: 10m0s
+  provider: generic
+  type: oci
+  url: oci://ghcr.io/foexle/aws-hosted-cp-extended:0.0.1
